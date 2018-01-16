@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\AndroidLearning\\Uber\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "C:\\Users\\qiaoz\\.android\\build-cache\\3a8770085e75b89be3a099f4975c00738a6fc43d\\output\\res\\values-v19\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endColumn": 76,
+                        "endOffset": 302
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e4ed7ccb1f0091ad6f126f2923aba683183561dc">
+        <dex dex="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c494dc6911c72574c41c3e895c1d7640a56bbe37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\qiaoz\.android\build-cache\93751a14ac72e9bd3a8939b2ef11d16a7766f1ec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b9c9ddecbcf40258c40beee3ef415297ef11791\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\qiaoz\.android\build-cache\3ad6592f619403378336a4ce7af7845cb299b87e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6a01563cffbfc8cec66c8d7979d5e2809b81265\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\qiaoz\.android\build-cache\9dd316a25920a3001788643b94ccf341091e0a20\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5ec674d005787632a30aaf7243c4d073c8a9d47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\qiaoz\.android\build-cache\b3a74625059c9ef13d3932e9fb4716b9dec2e8da\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5cec0f2eba985cc04cb2bfe3ac37f26cfa48d331\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\qiaoz\.android\build-cache\05c9f51511e197994cf0448c6b7138954390a8be\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_86ba433e3c57ddd6a79d7a2ff6e0992ec78eaa3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="D:\AndroidLearning\Uber\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_99c3354555c4a37dca2acd6f50add6c964c82e69\classes.dex" />
+    </item>
+
+</items>

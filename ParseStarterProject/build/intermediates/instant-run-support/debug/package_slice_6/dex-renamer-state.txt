@@ -1,0 +1,4 @@
+#Mon Jan 15 23:48:14 PST 2018
+base.0=D\:\\AndroidLearning\\Uber\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+renamed.0=classes.dex
+file.0=D\:\\AndroidLearning\\Uber\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

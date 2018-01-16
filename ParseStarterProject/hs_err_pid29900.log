@@ -1,0 +1,75 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32744 bytes for ChunkPool::allocate
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:273), pid=29900, tid=0x0000000000007130
+#
+# JRE version: OpenJDK Runtime Environment (8.0_152-b01) (build 1.8.0_152-release-915-b01)
+# Java VM: OpenJDK 64-Bit Server VM (25.152-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000001cc4a000):  JavaThread "C2 CompilerThread0" daemon [_thread_in_vm, id=28976, stack(0x000000001e650000,0x000000001e750000)]
+
+Stack: [0x000000001e650000,0x000000001e750000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x000000001cc4c800 JavaThread "C2 CompilerThread1" daemon [_thread_new, id=29484, stack(0x0000000000000000,0x0000000000000000)]
+=>0x000000001cc4a000 JavaThread "C2 CompilerThread0" daemon [_thread_in_vm, id=28976, stack(0x000000001e650000,0x000000001e750000)]
+  0x000000001cbe7000 JavaThread "Attach Listener" daemon [_thread_new, id=18472, stack(0x0000000000000000,0x0000000000000000)]
+  0x000000001e058800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=30476, stack(0x000000001e450000,0x000000001e550000)]
+  0x000000000351a800 JavaThread "Finalizer" daemon [_thread_blocked, id=30092, stack(0x000000001de50000,0x000000001df50000)]
+  0x0000000003512000 JavaThread "Reference Handler" daemon [_thread_blocked, id=30088, stack(0x000000001dd50000,0x000000001de50000)]
+  0x0000000003422800 JavaThread "main" [_thread_in_vm, id=30384, stack(0x0000000003320000,0x0000000003420000)]
+
+Other Threads:
+  0x000000001cbb5000 VMThread [stack: 0x000000001dc50000,0x000000001dd50000] [id=30348]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 38400K, used 665K [0x000000076ab00000, 0x000000076d580000, 0x00000007c0000000)
+  eden space 33280K, 2% used [0x000000076ab00000,0x000000076aba6670,0x000000076cb80000)
+  from space 5120K, 0% used [0x000000076d080000,0x000000076d080000,0x000000076d580000)
+  to   space 5120K, 0% used [0x000000076cb80000,0x000000076cb80000,0x000000076d080000)
+ ParOldGen       total 87552K, used 0K [0x00000006c0000000, 0x00000006c5580000, 0x000000076ab00000)
+  object space 87552K, 0% used [0x00000006c0000000,0x00000006c0000000,0x00000006c5580000)
+ Metaspace       used 2200K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 232K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x00000000128e0000,0x00000000130f0000] byte_map_base: 0x000000000f2e0000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000064fe3950
+ Begin Bits: [0x0000000013a50000, 0x0000000017a50000)
+ End Bits:   [0x0000000017a50000, 0x000000001ba50000)
+
+Polling page: 0x0000000001540000
+
+CodeCache: size=245760Kb used=434Kb max_used=434Kb free=245325Kb
+ bounds [0x0000000003520000, 0x0000000003790000, 0x0000000012520000]
+ total_blobs=164 nmethods=0 adapters=131
+ compilation: enabled
+

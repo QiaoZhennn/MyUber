@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "D:\\AndroidLearning\\Uber\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\qiaoz\\.android\\build-cache\\93751a14ac72e9bd3a8939b2ef11d16a7766f1ec\\output\\res\\values-w600dp-v13\\values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "C:\\Users\\qiaoz\\.android\\build-cache\\93751a14ac72e9bd3a8939b2ef11d16a7766f1ec\\output\\res\\values-w600dp-v13\\values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    }
+]
